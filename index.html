@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Independent directory of buses, tempo travellers and other transport services for Manas Hanumant Dham Yatra to Nava Katariya, Gujarat.">
+  <meta name="theme-color" content="#8d2f1a">
+  <title>Manas Hanumant Dham Yatra</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="topline"></div>
+    <div class="nav-shell">
+      <a class="brand" href="#top" aria-label="Manas Hanumant Dham Yatra home">
+        <span class="brand-mark">ॐ</span>
+        <span>
+          <strong data-en="Manas Hanumant Dham Yatra" data-gu="માનસ હનુમંત ધામ યાત્રા">Manas Hanumant Dham Yatra</strong>
+          <small data-en="Saturday transport directory" data-gu="શનિવાર યાત્રા પરિવહન ડિરેક્ટરી">Saturday transport directory</small>
+        </span>
+      </a>
+      <button id="langToggle" class="lang-toggle" type="button" aria-label="Switch language">ગુજરાતી</button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-content">
+        <div class="eyebrow" data-en="जय सियाराम • जय श्री हनुमान" data-gu="જય સિયારામ • જય શ્રી હનુમાન">जय सियाराम • जय श्री हनुमान</div>
+        <h1 data-en="Find your Saturday yatra to Manas Hanumant Dham" data-gu="માનસ હનુમંત ધામ માટે તમારી શનિવાર યાત્રા શોધો">Find your Saturday yatra to Manas Hanumant Dham</h1>
+        <p data-en="A community-maintained directory of local buses, tempo travellers and group transport services travelling to Nava Katariya." data-gu="નવા કટારીયા ખાતે જતી સ્થાનિક બસ, ટેમ્પો ટ્રાવેલર અને ગ્રુપ પરિવહન સેવાઓની સમુદાય દ્વારા સંચાલિત ડિરેક્ટરી.">A community-maintained directory of local buses, tempo travellers and group transport services travelling to Nava Katariya.</p>
+        <div class="hero-actions">
+          <a class="primary-btn" href="#directory" data-en="Find a bus" data-gu="બસ શોધો">Find a bus</a>
+          <a class="secondary-btn" href="#about" data-en="About this directory" data-gu="ડિરેક્ટરી વિશે">About this directory</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <img src="assets/hanuman-idol.jpg" alt="Hanuman idol at Manas Hanumant Dham">
+      </div>
+    </section>
+
+    <section class="intro section" id="about">
+      <div>
+        <div class="section-kicker" data-en="About the destination" data-gu="ધામ વિશે">About the destination</div>
+        <h2 data-en="Saturday is the key day" data-gu="શનિવાર મુખ્ય યાત્રા દિવસ છે">Saturday is the key day</h2>
+        <p data-en="Manas Hanumant Dham at Nava Katariya is a major devotional destination in Kutch. The temple's public website highlights Saturday satsang, special aarti and large visitor numbers. This directory focuses specifically on the transport services people use to reach the Dham from cities across Gujarat." data-gu="નવા કટારીયા ખાતે આવેલ માનસ હનુમંત ધામ કચ્છનું મહત્વનું ધાર્મિક સ્થળ છે. ધામની જાહેર વેબસાઇટ શનિવારના સત્સંગ, વિશેષ આરતી અને મોટી સંખ્યામાં આવતા ભક્તો વિશે માહિતી આપે છે. આ ડિરેક્ટરી ખાસ કરીને ગુજરાતના વિવિધ શહેરોમાંથી ધામ સુધી પહોંચાડતી પરિવહન સેવાઓ પર કેન્દ્રિત છે.">Manas Hanumant Dham at Nava Katariya is a major devotional destination in Kutch. The temple's public website highlights Saturday satsang, special aarti and large visitor numbers. This directory focuses specifically on the transport services people use to reach the Dham from cities across Gujarat.</p>
+      </div>
+      <div class="destination-card">
+        <div class="destination-icon">🙏</div>
+        <strong data-en="Nava Katariya, Kutch" data-gu="નવા કટારીયા, કચ્છ">Nava Katariya, Kutch</strong>
+        <span data-en="7HPF+PV Manas, Nava Katariya, Gujarat 370150" data-gu="7HPF+PV માનસ, નવા કટારીયા, ગુજરાત 370150">7HPF+PV Manas, Nava Katariya, Gujarat 370150</span>
+        <a href="https://www.manashanumantdham.org/" target="_blank" rel="noopener" data-en="Visit official temple website ↗" data-gu="અધિકૃત મંદિર વેબસાઇટ ↗">Visit official temple website ↗</a>
+      </div>
+    </section>
+
+    <section class="directory section" id="directory">
+      <div class="section-heading">
+        <div>
+          <div class="section-kicker" data-en="Yatra directory" data-gu="યાત્રા ડિરેક્ટરી">Yatra directory</div>
+          <h2 data-en="Find transport by source city" data-gu="શહેર પ્રમાણે પરિવહન શોધો">Find transport by source city</h2>
+        </div>
+        <div class="count-badge" id="countBadge">0 listings</div>
+      </div>
+
+      <div class="filters" aria-label="Directory filters">
+        <label class="field-label">
+          <span data-en="Source city" data-gu="પ્રસ્થાન શહેર">Source city</span>
+          <select id="cityFilter"></select>
+        </label>
+        <label class="field-label grow">
+          <span data-en="Search operator or city" data-gu="આયોજક અથવા શહેર શોધો">Search operator or city</span>
+          <input id="searchInput" type="search" placeholder="Search..." data-placeholder-en="Search..." data-placeholder-gu="શોધો...">
+        </label>
+        <button id="resetBtn" class="reset-btn" type="button" data-en="Clear" data-gu="સાફ કરો">Clear</button>
+      </div>
+
+      <div id="operatorGrid" class="operator-grid" aria-live="polite"></div>
+      <div id="emptyState" class="empty-state hidden">
+        <div class="empty-icon">🚌</div>
+        <h3 data-en="No matching operators" data-gu="કોઈ મેળ ખાતા આયોજક મળ્યા નથી">No matching operators</h3>
+        <p data-en="Try another city or clear the filters." data-gu="બીજું શહેર પસંદ કરો અથવા ફિલ્ટર સાફ કરો.">Try another city or clear the filters.</p>
+      </div>
+    </section>
+
+    <section class="submit section">
+      <div class="submit-card">
+        <div>
+          <div class="section-kicker" data-en="Add your details" data-gu="તમારી માહિતી ઉમેરો">Add your details</div>
+          <h2 data-en="Do you run a Saturday yatra to Manas Hanumant Dham?" data-gu="શું તમે માનસ હનુમંત ધામ માટે શનિવારની યાત્રા ચલાવો છો?">Do you run a Saturday yatra to Manas Hanumant Dham?</h2>
+          <p data-en="Send your bus, tempo traveller or other yatra details so they can be added to this directory for other devotees to find easily." data-gu="તમારી બસ, ટેમ્પો ટ્રાવેલર અથવા અન્ય યાત્રાની માહિતી મોકલો જેથી અન્ય ભક્તો તેને સરળતાથી શોધી શકે અને ડિરેક્ટરીમાં ઉમેરી શકાય.">Send your bus, tempo traveller or other yatra details so they can be added to this directory for other devotees to find easily.</p>
+        </div>
+        <div class="maintainer-contact">
+          <strong>Contact Nirav Katarmal</strong>
+          <a class="contact-btn call-owner" href="tel:+918511842261" data-en="Call 8511842261" data-gu="કૉલ 8511842261">Call 8511842261</a>
+          <a class="contact-btn whatsapp-owner" href="https://wa.me/918511842261" target="_blank" rel="noopener" data-en="WhatsApp 8511842261" data-gu="WhatsApp 8511842261">WhatsApp 8511842261</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <strong data-en="Manas Hanumant Dham Yatra" data-gu="માનસ હનુમંત ધામ યાત્રા">Manas Hanumant Dham Yatra</strong>
+        <p data-en="Independent community directory • Not affiliated with the temple trust" data-gu="સ્વતંત્ર સમુદાય ડિરેક્ટરી • મંદિર ટ્રસ્ટ સાથે સંકળાયેલ નથી">Independent community directory • Not affiliated with the temple trust</p>
+      </div>
+      <div class="footer-note" id="disclaimer"></div>
+    </div>
+  </footer>
+
+  <template id="operatorTemplate">
+    <article class="operator-card">
+      <div class="card-top">
+        <div class="vehicle-icon">🚌</div>
+      </div>
+      <div class="operator-main">
+        <h3 class="operator-name"></h3>
+        <div class="city-line"></div>
+      </div>
+      <div class="details">
+        <div class="detail-row"><span class="detail-label" data-label="schedule"></span><span class="schedule detail-value"></span></div>
+        <div class="detail-row"><span class="detail-label" data-label="route"></span><span class="route detail-value"></span></div>
+        <div class="detail-row fare-row"><span class="detail-label" data-label="fare"></span><span class="fare detail-value"></span></div>
+        <div class="detail-row contact-row"><span class="detail-label" data-label="contact"></span><span class="contact detail-value"></span></div>
+      </div>
+      <div class="card-actions">
+        <a class="social-link" target="_blank" rel="noopener"><span class="social-icon">↗</span><span class="social-text"></span></a>
+        <a class="call-link" target="_blank" rel="noopener"><span class="call-text"></span></a>
+      </div>
+    </article>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>
