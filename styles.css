@@ -125,3 +125,9 @@ h2 { font-family: Georgia, "Times New Roman", serif; margin: 0 0 12px; font-size
 .hero-art { display: flex; align-items: center; justify-content: center; padding: 28px 28px 0 0; }
 .hero-art img { object-fit: contain; object-position: center bottom; mix-blend-mode: normal; opacity: 1; filter: drop-shadow(0 24px 28px rgba(49, 13, 5, .24)); }
 @media (max-width: 720px) { .hero-art { padding: 8px 18px 0; } }
+
+.seo-intro { margin-top: 1.5rem; }
+.faq-grid { display: grid; gap: 0.85rem; margin-top: 1rem; }
+.faq-grid details { background: var(--card, #fff); border: 1px solid rgba(115, 48, 24, 0.12); border-radius: 14px; padding: 1rem 1.1rem; }
+.faq-grid summary { cursor: pointer; font-weight: 700; }
+.faq-grid p { margin: 0.75rem 0 0; }

@@ -55,3 +55,7 @@ The palette and devotional feel take inspiration from the warm saffron, maroon, 
 
 ### Hero image
 The hero uses `assets/hanuman-idol.jpg`, the photograph supplied for this project. The photograph itself is kept unchanged and is only resized responsively by CSS. No animation is applied.
+
+## Search visibility
+
+A GitHub Pages site can be crawled by search engines, but publishing does not guarantee immediate indexing. Google recommends Search Console, URL Inspection, and a sitemap for discovery and recrawling. Replace `nkatarmal` in `sitemap.xml` and `robots.txt` before publishing, then add your live Pages URL to Google Search Console, request indexing, and submit the sitemap. It can take several days for a new page to be found and crawled.

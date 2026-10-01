@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Replace nkatarmal with your GitHub username before publishing.
+Sitemap: https://nkatarmal.github.io/manas-hanumant-dham-yatra/sitemap.xml
